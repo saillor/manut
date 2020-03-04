@@ -6,7 +6,7 @@ echo "\e            GOJEK VERSION 1.7.1            \n";
 echo "\e SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER\n";
 echo "\n";
 nope:
-echo "\e[?] Masukkan Nomor HP Anda Iswandi Ganteng : ";
+echo "\e[?] No hp cok pake: ";
 $nope = trim(fgets(STDIN));
 $cek = cekno($nope);
 if ($cek == false)
@@ -26,7 +26,7 @@ if ($register == false)
   else
     {
     otp:
-    echo "\e[!] Masukkan Kode Verifikasi (OTP) : ";
+    echo "\e[!] Masukkan sini verifikasi (OTP) : ";
     $otp = trim(fgets(STDIN));
     $verif = verif($otp, $register);
     if ($verif == false)
