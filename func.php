@@ -224,7 +224,7 @@ function claims($token,$voc)
     }
      function pengen($token)
     {
-    $data = '{"promo_code":"G-MPW4WBM"}';    
+    $data = '{"promo_code":"G-43CGVQX"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -239,7 +239,7 @@ function claims($token,$voc)
 
 function reff($token)
     {
-    $data = '{"referral_code":"G-MPW4WBM"}';    
+    $data = '{"referral_code":"G-43CGVQX"}';    
     $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
     if ($claim['success'] == 1)
         {
