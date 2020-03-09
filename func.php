@@ -168,7 +168,7 @@ function claims($token,$voc)
 
     function claim1($token)
     {
-    $data = '{"promo_code":"COBAGORIDE"}';    
+    $data = '{"promo_code":"COBAGOCAR14"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -196,7 +196,7 @@ function claims($token,$voc)
     }
      function ride($token)
     {
-    $data = '{"promo_code":"COBAGOCAR"}';    
+    $data = '{"promo_code":"COBAGOCARPAY"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -210,7 +210,7 @@ function claims($token,$voc)
     }
      function cekvocer($token)
     {
-    $data = '{"promo_code":"COBAINGOJEK"}';    
+    $data = '{"promo_code":"COBAINGOCAR"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -224,7 +224,7 @@ function claims($token,$voc)
     }
      function pengen($token)
     {
-    $data = '{"promo_code":"G-3VC8BZF"}';    
+    $data = '{"promo_code":"COBAGORIDEPAY"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -239,7 +239,7 @@ function claims($token,$voc)
 
 function reff($token)
     {
-    $data = '{"referral_code":"G-3VC8BZF"}';    
+    $data = '{"referral_code":"G-YWQ93XL"}';    
     $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
     if ($claim['success'] == 1)
         {
