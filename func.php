@@ -182,7 +182,7 @@ function claims($token,$voc)
     }
     function claim2($token)
     {
-    $data = '{"promo_code":"GOFOOD022620B2"}';    
+    $data = '{"promo_code":"COBAGOFOOD090320A"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -224,7 +224,7 @@ function claims($token,$voc)
     }
      function pengen($token)
     {
-    $data = '{"promo_code":"COBAGORIDEPAY"}';    
+    $data = '{"promo_code":"G-YWQ93XL"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
